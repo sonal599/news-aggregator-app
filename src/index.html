@@ -1,19 +1,32 @@
+<!-- Enter your HTML code here -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>News Aggregator</title>
-</head>
-<body>
-  <h1 class="site-title">News Aggregator</h1>
-  
-  <div class="search-container">
-    <input type="text" name="search" id="search" placeholder="Type and press enter to search..." />
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Aggregator APP</title>
+  </head>
 
-  <ul id="news-articles">
+  <body>
+    <!-- Main Header section and toggle key -->
+    <div class="mainheading">NEWS AGGREGATOR</div>
+    <div class="toggletxt">Toggle to Lite Mode</div>
+    <label class="switch">
+      <input type="checkbox" id="toggle_action" unchecked />
+      <div class="slider round"></div>
+    </label>
 
-  </ul>
-</body>
+    <!--  -->
+    <!-- Search Bar  -->
+    <div class="search-bar">
+      <input
+        type="text"
+        name="search"
+        id="search"
+        placeholder="Type and press enter to search..."
+      />
+    </div>
+    <!-- News Display Area -->
+    <ul id="news-articles"></ul>
+  </body>
 </html>
